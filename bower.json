@@ -1,0 +1,27 @@
+{
+  "name": "craigscouriers",
+  "description": "gulp project",
+  "main": "index.js",
+  "authors": [
+    "endgus"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Endgus/teach2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main":[
+        "./dist/css/bootstrap.css",
+        "./dist/css/bootstrap-theme.css",
+        "./dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
